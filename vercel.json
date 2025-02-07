@@ -1,0 +1,6 @@
+echo '{
+  "public": "public",
+  "routes": [
+    { "src": "/(.*)", "dest": "/index.html" }
+  ]
+}' > vercel.json
