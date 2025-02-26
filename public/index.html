@@ -117,9 +117,9 @@
 
             // Unity 인스턴스를 생성하고, Promise가 resolve될 때까지 기다림
             window.unityInstance = await createUnityInstance(document.querySelector("#unity-canvas"), {
-                dataUrl: "/Build/buildjam2.data",
-                frameworkUrl: "/Build/buildjam2.framework.js",
-                codeUrl: "/Build/buildjam2.wasm",
+                dataUrl: "Build/buildjam2.data",
+                frameworkUrl: "Build/buildjam2.framework.js",
+                codeUrl: "Build/buildjam2.wasm",
                 companyName: "DefaultCompany",
                 productName: "PenguinAdventure",
                 productVersion: "1.0",
